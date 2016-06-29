@@ -1,0 +1,6 @@
+[package]
+name = "brainfrust"
+version = "0.1.0"
+authors = ["Stijn Seghers <stijnseghers@gmail.com>"]
+
+[dependencies]

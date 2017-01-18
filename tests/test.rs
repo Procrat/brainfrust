@@ -41,12 +41,12 @@ fn quine410() {
 
 #[test]
 fn cat() {
-    test_case("cat.b", "This\ngets\ncopied.", "This\ngets\ncopied.")
+    test_case("cat.b", "This\ngets\ncopied.\n", "This\ngets\ncopied.\n")
 }
 
 #[test]
 fn prime() {
-    test_case("prime.b", "45", "Primes up to: 2 3 5 7 11 13 17 19 23 29 31 37 41 43")
+    test_case("prime.b", "45\n", "Primes up to: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 \n")
 }
 
 fn test_case(file_name: &str, input: &str, expected_output: &str) {
